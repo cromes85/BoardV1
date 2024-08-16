@@ -1,0 +1,37 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: flex-start; /* Alignement des colonnes sur le même niveau */
+}
+
+.column {
+    width: 45%;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    margin-bottom: 20px; /* Espacement entre le titre et les boutons */
+}
+
+button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 25px 0;
+    font-size: 16px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkblue;
+}
