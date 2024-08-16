@@ -3,7 +3,8 @@ function openLink(url) {
 }
 
 function openInPrivate(url) {
-  let edgePath = 'microsoft-edge:';
-  window.open(edgePath + '--inprivate,' + url);
+  let edgeCommand = `microsoft-edge:${url} --inprivate`;
+  window.location.href = edgeCommand;
 }
+
 
